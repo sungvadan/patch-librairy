@@ -1,0 +1,11 @@
+--- a/vendor/symfony/var-dumper/Dumper/HtmlDumper.php	2021-10-27 09:41:02.148214098 +0200
++++ b/vendor/symfony/var-dumper/Dumper/HtmlDumper.php	2021-10-27 09:39:28.177217956 +0200
+@@ -28,7 +28,7 @@
+             'default' => 'background-color:#18171B; color:#FF8400; line-height:1.2em; font:12px Menlo, Monaco, Consolas, monospace; word-wrap: break-word; white-space: pre-wrap; position:relative; z-index:99999; word-break: break-all',
+             'num' => 'font-weight:bold; color:#1299DA',
+             'const' => 'font-weight:bold',
+-            'str' => 'font-weight:bold; color:#56DB3A',
++            'str' => 'font-weight:bold; color:blue',
+             'note' => 'color:#1299DA',
+             'ref' => 'color:#A0A0A0',
+             'public' => 'color:#FFFFFF',

@@ -1,0 +1,14 @@
+{
+    "require": {
+        "symfony/var-dumper": "^5.3",
+        "cweagans/composer-patches": "^1.7"
+    },
+    "extra": {
+        "patches": {
+            "symfony/var-dumper": {
+                "Change collor text": "patches/var-dumper.patch"
+            },
+            "composer-exit-on-patch-failure": true
+        }
+    }
+}
